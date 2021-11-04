@@ -1,0 +1,16 @@
+php artisan migrate:refresh  --step=1 --path=/database/migrations/ファイル名
+
+
+
+php artisan migrate:refresh  --step=1  --path=/database/migrations/2021_10_18_074746_create_user_table.php
+php artisan migrate:refresh  --step=1  --path=/database/migrations/2021_10_18_085729_map.php
+php artisan migrate:refresh  --step=1  --path=/database/migrations/2021_10_18_085851_map_detail.php
+php artisan migrate:refresh  --step=1  --path=/database/migrations/2021_10_18_085900_weapon.php
+php artisan migrate:refresh  --step=1  --path=/database/migrations/2021_10_18_085909_battle_data.php
+php artisan migrate:refresh  --step=1 --path=/database/migrations/2021_10_19_133105_create_legends.php
+php artisan migrate:refresh  --step=1 --path=/database/migrations/2021_10_20_124546_battle_mode.php
+php artisan migrate:refresh  --step=1 --path=/database/migrations/2021_10_20_124645_ranked.php
+php artisan migrate:refresh  --step=1 --path=/database/migrations/2021_10_20_124657_round.php
+php artisan migrate:refresh  --step=1 --path=/database/migrations/2021_10_27_234747_change_battle_data_table_nullable.php
+php artisan migrate:refresh  --step=1 --path=/database/migrations/2021_11_02_104406_change_battle_data_add_field.php
+php artisan migrate:refresh  --step=1 --path=/database/migrations/2021_11_02_105625_change_battle_data_add_field_02.php
